@@ -6,16 +6,6 @@ import Botao from '../Botao';
 
 const Formulario = (props) => {
 
-    //criando as opções do select
-    const times = [
-        'Programação',
-        'Front-End',
-        'Data Science',
-        'Devops',
-        'UX e Design',
-        'Mobile',
-        'Inovação e Gestão'
-    ]
 
     const aoSalvar = (evento) => {
         evento.preventDefault();
@@ -61,7 +51,7 @@ const Formulario = (props) => {
             <ListaSuspensa 
             obrigatorio={true} 
             label="Time" 
-            itens={times}
+            itens={props.times}
             valor={time}
             aoAlterado ={valor => setTime(valor)}
 
