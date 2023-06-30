@@ -1,0 +1,40 @@
+.colaborador {
+    height: 272px;
+    width: 262px;
+    background-color: #fff;
+    border-radius: 10%;
+    position: relative;
+    margin: 10px;
+}
+
+.cabecalho{
+    height: 91.9px;
+    border-radius: 20px 20px 0 0;
+}
+
+.cabecalho img {
+    position: absolute;
+    border-radius: 100%;
+    width: 120px;
+    height: 121.19110870361328px;
+    top: 32px;
+    left: 71px;
+}
+
+.rodape h4 {
+    font-family: 'Montserrat';
+    color: #6278F7;
+    font-size: 18px;
+    align-items: center;
+    font-weight: 600;
+    margin: 80px 0 0 0;
+}
+
+.rodape h5 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0 20px;
+}
