@@ -7,9 +7,6 @@ function App() {
 
   const times = [
     {
-      nome: ''
-    },
-    {
       nome: 'Programação',
       corPrimaria: '#57c278',
       corSecundaria: '#d9f7e9'
@@ -49,6 +46,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
+    debugger
     setColaboradores([...colaboradores, colaborador])
   }
 
