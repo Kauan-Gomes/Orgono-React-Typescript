@@ -1,4 +1,3 @@
-# <img src="./public/imagens/logo.png">
 
 <img src="./public/imagens/banner.png">
 
