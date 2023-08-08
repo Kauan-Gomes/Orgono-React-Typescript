@@ -48,7 +48,9 @@ const Formulario = ({aoCadastrar, times}) => {
                     items={times} 
                     valor={time}
                     aoAlterado={valor => setTime(valor)}/>
-                <Botao texto='Criar card' />
+                <Botao>
+                    Criar card
+                </Botao>
             </form>
         </section>
     )
