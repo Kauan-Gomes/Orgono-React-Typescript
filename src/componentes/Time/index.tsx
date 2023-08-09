@@ -9,8 +9,6 @@ interface TimeProps {
     corSecundaria: string
     nome: string
     colaboradores: IColaborador[]
-    time: string
-    
 }
 
 const Time = (props: TimeProps) => {
@@ -18,7 +16,7 @@ const Time = (props: TimeProps) => {
     const css = { backgroundColor: props.corSecundaria}
     return (
 
-        props.colaboradores.length > 0 && <section className='time' style={css}>
+        props.colaboradores.length > 0 ? <section className='time' style={css}>
             <h3 style={{ borderColor: props.corSecundaria }}>{props.nome}</h3>
             <div className='colaboradores'>
                 {props.colaboradores.map((colaborador, indice) =>
@@ -30,7 +28,8 @@ const Time = (props: TimeProps) => {
                         imagem={colaborador.imagem}
                     />)}
             </div>
-        </section>
+        </section> 
+        :  <></>
     )
 }
 
