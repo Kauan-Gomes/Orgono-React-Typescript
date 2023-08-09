@@ -6,7 +6,7 @@ interface CampoTextoProps {
     placeholder: string
     aoAlterado: (valor: string) => void
     valor: string
-    obrigatorio: boolean
+    obrigatorio?: boolean
 
 }
 
