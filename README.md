@@ -16,6 +16,7 @@ seu foco é na adição de membros em equipes já pré estabelecidas de diferent
 
 ## `Tecnologias utilizadas durante o projeto`
 * [React](https://react.dev/reference/react)
+* Typescript 
 * JavaScript
 * HTML
 * CSS
